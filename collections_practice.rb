@@ -87,8 +87,6 @@ end
 #   end
 # end
 
-
-
 def add_s(array)
   array.select do |i|
     i < array[1] || i > array[1]
